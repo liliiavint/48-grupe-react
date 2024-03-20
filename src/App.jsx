@@ -4,6 +4,7 @@ import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { Footer } from './components/footer/Footer';
 
+
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <div className="App">CONTENT1</div>
       <div className="App">CONTENT2</div>
       <div className="App">CONTENT3</div>
+
       <Footer/>
       
     </div>
