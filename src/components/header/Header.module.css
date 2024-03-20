@@ -1,0 +1,29 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+ .logo{
+    height: 3rem;
+}
+
+ .mainNav{
+    display: flex;
+    gap: 1rem;
+}
+
+ .link{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+ .link:hover{
+    text-decoration: underline;
+}
+
+.gray-bg{
+    background-color: #ccc;
+}
