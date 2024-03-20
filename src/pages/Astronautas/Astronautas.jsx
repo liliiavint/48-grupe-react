@@ -2,8 +2,7 @@ import React from 'react';
 import logo from './img/logo.webp';
 import style from './css/Astronautas.module.css';
 
-function Astronautas (){
-    return (
+export const Astronautas = () => (
 
 <body>
     <header className={style.container}>
@@ -52,6 +51,3 @@ function Astronautas (){
 
     );
 
-}
-
-export default Astronautas;
